@@ -77,7 +77,8 @@ def getUnderlyingDecimal(adressCtoken):
         underlyingDecimals = 6
     return underlyingDecimals
 
-def getRedeemRateCtoken(addressCtoken):
+#https://compound.finance/docs#protocol-math source for the code below
+def getRedeemRateCtoken(addressCtoken): 
     cTokenDecimals = 8
     underlyingDecimals = getUnderlyingDecimal(addressCtoken)
     abiCtoken = cTokenInfo[addressCtoken]['abi']
