@@ -8,7 +8,7 @@ import operator
 
 web3 = Web3(Web3.HTTPProvider('https://mainnet.infura.io/v3/00e46f3ce2d8433daecdd8006aaf1c95'))
 latestBlock = web3.eth.getBlock('latest')['number']
-print('What are the top 10 users in dollars matched P2P (borrow and supply) at a given block?)')
+print('What are the top 10 users in dollars matched P2P (borrow and supply) at a given block?')
 print("Let's grab them")
 print('Write bellow the block number that you have chosen. To be noted choose between 15115000 and',latestBlock)
 blockNumberDesired = int(input())
