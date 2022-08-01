@@ -15,4 +15,4 @@ I wrote getRedeemRateCtoken(addressCtoken) function but it is useless cause I wa
 
 ## Method
 
-I collected all the addresses that had interacted with the morphlab protocol. Then I examined what their P2P balance was for all the markets they had entered (tokens supply or borrow). I totaled the P2P balances multiplied by the price of supply/borrow tokens. I added a block number into all call() functions. This is how I find the top 10 suppliers and borrowers P2P in dollars at a given block. 
+I collected all the addresses that had interacted with the morphlab protocol. Then I examined what their P2P balance was for all the markets they had entered (tokens supply or borrow). I totaled the P2P balances multiplied by the price of supply/borrow tokens. I added a block number into all call() functions. This is how I found the top 10 suppliers and borrowers P2P in dollars at a given block. 
