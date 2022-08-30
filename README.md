@@ -1,6 +1,6 @@
 # Morpholabs
 
-I used Web3.py,Infura,Chainlink and Etherscan.
+I used Web3.py,Infura,Chainlink,Coumpound and Etherscan.
 
 First of all, I would like to congratulate the French on their fantastic fundraising. 
 I heard about this protocol some time ago but it is only recently that I went into it technically. 
